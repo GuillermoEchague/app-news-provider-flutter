@@ -5,7 +5,7 @@ import 'package:newsapp/src/models/news_models.dart';
 import 'package:http/http.dart' as http;
 
 final _URL_NEWS = 'https://newsapi.org/v2';
-final _APIKEY = '8999ab9cac664a6ba8b1734790f30a6f';
+final _APIKEY = 'API_KEY';
 
 class NewsService with ChangeNotifier {
   List<Article> headlines = [];
